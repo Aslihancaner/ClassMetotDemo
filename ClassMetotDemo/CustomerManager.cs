@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ClassMethodDemo
+namespace ClassMetotDemo
 {
     public class CustomerManager
     {

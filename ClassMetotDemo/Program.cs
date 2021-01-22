@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ClassMethodDemo
+namespace ClassMetotDemo
 {
     class Program
     {
@@ -15,10 +15,10 @@ namespace ClassMethodDemo
                 Id=5
             };
             CustomerManager customerManager = new CustomerManager();
-            customerManager.Add(customer);          
+            customerManager.Add(customer);
+            customerManager.Delete(customer);
             customerManager.Update(customer);
             customerManager.GetAll(customer);
-            customerManager.Delete(customer);
         }
     }
 }
